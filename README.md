@@ -37,7 +37,7 @@ Método `console.log` no javascript
 
 ```js
 document.querySelector('html');
-````
+```
 
 ```java
 system.out.println('Olá mundo, com java!')
