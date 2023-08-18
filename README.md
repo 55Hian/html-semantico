@@ -10,7 +10,7 @@
 
 [![Google](https://www.google.com.br/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)](https://google.com/)
 
-[![Youtube](https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc)](https://www.youtube.com/)
+[![Youtube](https://www.gstatic.com/images/branding/product/1x/youtube_64dp.png)](https://www.youtube.com/)
 
 * Item 1
 * Item 2
