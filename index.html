@@ -1,17 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Semântico</title>
-</head>
-<body>
-    <header>
-        <h1>HTML Semântico</h1>
-        <h2>Dando significado às estruturas</h2>
-        <p>Vamos utilizar estrturas semânticas para marcar o conteúdo da pagina</p>
-        
-    </header>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>HTML Semântico</title>
+        <style>
+            body{
+                background-color: #f6f8ee;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header id="topo-pagina">
+
+            <nav>
+
+                <!-- Lista não ordenada -->
+                <ul>
+
+                    <!-- Itens da lista -->
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#sobre-nos">Sobre nós</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#entre-em-contato">Contato</a>
+                    </li>
+
+
+                </ul>
+
+            </nav>
+
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum fuga perferendis velit libero quos fugit rem, assumenda tenetur debitis beatae est, facilis impedit quo ducimus animi temporibus? Architecto, ad.</p>
+
+        </header>
+
+            <article>
+                <header>
+                    <h1>HTML Semântico</h1>
+                    <h2>Dando significado às estruturas</h2>
+                    <p>Vamos utilizar estrturas semânticas para marcar o conteúdo da pagina</p>
+                </header>
+            
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis repellendus, porro fuga, cum fugit ipsa consequatur debitis dolorem ratione ea numquam perferendis doloribus quaerat molestiae odio sint soluta tempore?
+                </p>
+
+                <a href="#topo-pagina">Voltar para o topo da pagina</a>
+            </article>
+            
+        <article>
+            <header>
+                <h2>Temos varios tipos de lista</h2>
+
+                <ol>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum.</li>
+                </ol>
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                </ul>
+            </header>
+
+            <a href="#topo-pagina">Voltar para o topo da pagina </a>
+        </article>
+
+        <section id="sobre-nos">
+            <h2>Sobre nós</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi molestiae omnis ipsa cumque, rerum cupiditate optio deserunt repellendus nulla beatae facilis accusantium asperiores possimus maxime, labore repudiandae iste voluptatum officiis corporis vel eligendi. Beatae laudantium eligendi, deserunt accusantium in totam a quibusdam minus nisi. Soluta aut alias obcaecati distinctio dolorum.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi reiciendis illo, pariatur velit perferendis accusamus nulla, quisquam ex obcaecati impedit excepturi officiis eaque iusto mollitia cupiditate. Delectus consectetur odit laborum fugiat repudiandae similique iure quam doloremque, voluptate quaerat qui culpa porro provident temporibus! Nisi sequi facere dolorem dolorum eveniet. Ex, ad mollitia. Rem vitae error, nobis molestias repudiandae reiciendis dolorem? Alias qui dignissimos nam ea illum eaque expedita aliquam explicabo voluptatum dolores, ratione quam veritatis id vero asperiores eos magni possimus accusamus, officiis non obcaecati porro. Molestiae repellat sit dolores eaque harum laboriosam cupiditate fugiat dignissimos quas. In, sunt voluptate?</p>
+
+            <a href="#topo-pagina">Voltar para o topo da pagina</a>
+        </section>
+
+        <section id="entre-em-contato">
+            <h2>Entre em contato</h2>
+
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+
+            <a href="#topo-pagina">Voltar para o topo da pagina</a>
+        </section>
+
+        <footer>
+            <!-- Proibido! -->
+            <!-- <header> </header> -->
+            <p>Link para o <a href="https://github.com/55Hian">meu GitHub</a></p>
+        </footer>
+    </body>
 </html>
